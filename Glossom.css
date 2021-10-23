@@ -1,0 +1,90 @@
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    font-size:14px ;
+    padding:8px 16px ;
+}
+
+
+#showbox .carousel-inner{
+   max-height: 450px;
+}
+.carousel-caption{
+    
+    top: 14%;
+}
+
+#heading{
+    position: relative;
+    background: url(img/lights.jpg);
+    background-attachment: fixed;
+    min-height: 200px;
+    }
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100% ;
+    background-color:rgba(0, 0, 0,0.7) ;
+}
+#heading-2{
+    min-height:350px ;
+}
+#home-video{
+    position: relative;
+    background: url(img/media.jpg);
+    background-attachment: fixed;
+    min-height: 200px;
+}
+#footer{
+    background:#000;
+}
+#about{
+    background-image: url(img/image1.jpg);
+    background-position: 0 -360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 200px;
+    text-align: center;
+    color: #fff;
+}
+#about-section img{
+    width: 100%;
+    margin-top: -48px;
+}
+#card-groups .list-group-item{
+    margin: 0 1rem;
+    border: 1px solid rgba(0,0,0,.125);
+    
+}
+.list-group-item:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#card-groups .list-group-item:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#accordion .card-header ,#accordion .card-body{
+    background-color:#333 ;
+    color: #fff;
+}
+.card-header:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ #accordion .card{
+     border: #333;}
+     
+  /* section{
+      max-height: 600px;
+  }   
+      */
+     #card-col blockquote{
+          font-size: 1rem;
+          margin-bottom: 2rem;
+      }
+      
+
